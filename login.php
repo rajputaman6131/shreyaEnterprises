@@ -82,7 +82,7 @@ $conn->close();
               </div>
               <button type="submit" name="login" class="btn btn-primary btn-block  mb-5">Login</button>
             </form>
-           <a href="index.html">Back home</a>
+           <a href="index.php">Back home</a>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@
     <div class="container mt-5">
       <div class="alert alert-success">
         <p>Your form was submitted successfully.</p>
-        <a href="index.html">Go Home</a>
+        <a href="index.php">Go Home</a>
       </div>
     </div>
   </body>
