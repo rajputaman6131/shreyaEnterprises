@@ -24,7 +24,7 @@ if (isset($_POST['contactForm'])) {
     // }
 
       // Connect to database
-    $conn = mysqli_connect("localhost", "root", "", "shreyaEnterprises");
+     include 'config.php';
 
     // Check connection
     if (!$conn) {

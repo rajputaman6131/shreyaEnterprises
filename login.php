@@ -3,18 +3,7 @@
 session_start();
 
 // Connection to the database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "shreyaEnterprises";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+  include 'config.php';
 
 if (isset($_POST['login'])) {
   $email = $_POST['email'];
